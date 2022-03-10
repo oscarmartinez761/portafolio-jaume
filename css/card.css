@@ -1,0 +1,49 @@
+.card {
+    margin: 32px auto 32px auto;
+    max-inline-size: 300px;
+    padding-block-start: 60px;
+    padding-block-end: 80px;
+    border-radius: 25px;
+    background: linear-gradient( 
+        120deg, 
+        rgb(163, 234, 237) 0%, 
+        rgba(161, 161, 194, 0.2) 
+        41%);
+    padding: 16px;
+
+    /*linear-gradient(to left, #b3b3b3, #fff) border-box; */
+   
+}
+
+.card-image {
+    text-align: center;
+}
+
+.card-image img {
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.card-copy {
+    text-align: left;
+    font-weight: bolder;
+   
+}
+
+.card-footer {
+    margin-top: 32px;
+    font: var(--caption);
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-inline-size: 850px ;
+        padding: 32px;
+    }
+
+    .card-copy,
+    .card-footer {
+        text-align: center;
+    }
+}

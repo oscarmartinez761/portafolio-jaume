@@ -1,0 +1,48 @@
+@import "./button.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./button-icon.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./project.css";
+@import "./card.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+
+
+
+
+:root { 
+  --purple: #310a90; 
+  --green: #42e288;
+  --fontBase: 'Poppins', sans-serif;
+  --gradient: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%); 
+  --white: #ffffff; 
+  --gradient: linear-gradient(45deg, #72edf2 0%, #5151e5 100%); 
+  --headline1: 700 5.9375rem/9.6068754196167rem var(--fontBase); 
+  --headline2: 700 3.6875rem/5.96637487411499rem var(--fontBase); 
+  --headline3: 700 3rem/4.854000091552734rem var(--fontBase); 
+  --headline4: 700 2.125rem/3.4382500648498535rem var(--fontBase); 
+  --headline5: 700 1.5rem/2.427000045776367rem var(--fontBase); 
+  --body1: 400 1rem/1.6180000305175781rem var(--fontBase); 
+  --body2: 400 0.875rem/1.4157500267028809rem var(--fontBase); 
+  --button: 700 0.875rem/1.4157500267028809rem var(--fontBase); 
+  --caption: 400 0.75rem/1.2135000228881836rem var(--fontBase); 
+  
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+
+}
+
+
+
